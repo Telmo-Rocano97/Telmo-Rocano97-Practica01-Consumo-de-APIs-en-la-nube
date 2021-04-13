@@ -83,3 +83,13 @@ RECOMENDACIONES:
 •	Consumir las API y obtener sus claves 
 •	Diseñer un modelo sobre como funcionaria la aplicación.
 
+
+Estudiante:  Telmo Rocano
+
+Firma 
+
+<img width="192" alt="Imagen01" src="https://user-images.githubusercontent.com/62858551/114494400-ef51e280-9be1-11eb-85ed-dbfbc813538f.png">
+
+
+
+
