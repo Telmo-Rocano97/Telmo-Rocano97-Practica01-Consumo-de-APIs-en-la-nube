@@ -8,7 +8,8 @@ Telmo-Rocano97/Practica01-Consumo-de-APIs-en-la-nube
 
 2.	Generar una llave para consumir los servicios web de la API (opcional, depende de la API seleccionada).
 2.1.	Primero procedemos a registrarse o ingresar con la cuenta creada
-[image](https://user-images.githubusercontent.com/62858551/114483860-c07e4100-9bce-11eb-8670-5926a35ae3b0.png)
+
+<img width="402" alt="Captura de Pantalla 2021-04-12 a la(s) 17 50 55" src="https://user-images.githubusercontent.com/62858551/114494171-810d2000-9be1-11eb-98a5-275c339984cb.png">
 
 2.2.	Ahora vamos a crear la app “Practica 1”
 
@@ -32,19 +33,22 @@ Telmo-Rocano97/Practica01-Consumo-de-APIs-en-la-nube
 
 4.2.	HTML
 La primera creamos el HTML donde vamos a ver como quedaría nuestra aplicación, procedemos a realizar una vista de como se vería la aplicación, en este caso la aplicación tiene un opción desplegable en lo que seria el Genero música y el Playlist a donde pertenece entonces cuando se seleccione al Genero musical aparecerán diferentes playlist.
+
 <img width="443" alt="Imagen 1" src="https://user-images.githubusercontent.com/62858551/114494032-3be8ee00-9be1-11eb-95fa-4e799bc82233.png">
 
 
 4.3.	JAVASCRIPT 
 En esta parte de Javascript procederemos a llamarle al index.html para que se relacione entre ellos y así al momento de que el usuario realice o despliegue los géneros existentes, además en esta parte de código al inicio se procede a poner la llave que creamos al inicio del documento y así puedan los datos ser llamados.
+
+
 <img width="443" alt="Imagen2" src="https://user-images.githubusercontent.com/62858551/114494010-34294980-9be1-11eb-8518-28319b4c45c1.png">
 
 
 
-En esta parte de código lo que procedemos es hacer que cuando el usuario seleccione tanto el genero como la playlist pueda mostraste los datos que esta solicitando 
+En esta parte de código lo que procedemos es hacer que cuando el usuario seleccione tanto el genero como la playlist pueda mostraste los datos que esta solicitando
+
+
 <img width="443" alt="Imagen3" src="https://user-images.githubusercontent.com/62858551/114493987-2d023b80-9be1-11eb-8e33-4f273da38f17.png">
-
-
 
 4.4.	CSS
 En la parte de CSS le hacemos que nuestra aplicación se vea de manera agradable para el usuario y no sea muy aburrido.
