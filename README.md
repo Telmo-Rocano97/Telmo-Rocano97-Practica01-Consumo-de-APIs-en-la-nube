@@ -22,96 +22,35 @@ Captura de Pantalla 2021-04-12 a la(s) 17.50.55![image](https://user-images.gith
 
 Captura de Pantalla 2021-04-12 a la(s) 20.36.56![image](https://user-images.githubusercontent.com/62858551/114483969-f4596680-9bce-11eb-8a59-17dd521dccae.png)
 
-8.	Desarrollar una aplicación con HTML + CSS + Javascript + Web Services para buscar información y visualizar toda la información disponible a través de la API.  
+4. 	Desarrollar una aplicación con HTML + CSS + Javascript + Web Services para buscar información y visualizar toda la información disponible a través de la API. 
+
+4.1.	Ahora para nuestro proyecto y para poder hacer el uso del consumo de la API de Spotify procedemos a realizar la aplicación con Javascript, css y html
+
 <img width="323" alt="Captura de Pantalla 2021-04-12 a la(s) 20 37 00" src="https://user-images.githubusercontent.com/62858551/114483988-fc190b00-9bce-11eb-8011-1a719d96ee6b.png">
 
-10.1.	HTML
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Spotify Web API </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
-<body>
-    
-    <div class="container">        
-        <form action="">
-            <input type="hidden" id='hidden_token'>
-            <div class="col-sm-6 form-group row mt-4 px-0">
-                <label for="Gener" class="form-label col-sm-2">Genero:</label>
-                <select name="" id="select_genre" class="form-control form-control-sm col-sm-10">
-                    <option>Seleccionar</option>                    
-                </select>
-            </div>
-            <div class="col-sm-6 form-group row px-0">
-                <label for="Genre" class="form-label col-sm-2">Playlists:</label>
-                <select name="" id="select_playlist" class="form-control form-control-sm col-sm-10">
-                    <option>Seleccionar</option>                    
-                </select>
-            </div>                  
-            <div class="col-sm-6 row form-group px-0">
-                <button type="submit" id="btn_submit" class="btn btn-success col-sm-12">Buscar</button>
-            </div>          
-        </form>        
-        <div class="row">
-            <div class="col-sm-6 px-0">
-                <div class="list-group song-list">
-                    
-                </div>                                             
-            </div>
-            <div class="offset-md-1 col-sm-4" id="song-detail">                
-            </div>
-        </div>   
-    </div>
-    <script src="api.js" type="text/javascript"></script>
-</body>
-</html>
+4.2.	HTML
+La primera creamos el HTML donde vamos a ver como quedaría nuestra aplicación, procedemos a realizar una vista de como se vería la aplicación, en este caso la aplicación tiene un opción desplegable en lo que seria el Genero música y el Playlist a donde pertenece entonces cuando se seleccione al Genero musical aparecerán diferentes playlist.
+![image](https://user-images.githubusercontent.com/62858551/114493185-aef16500-9bdf-11eb-9e63-668f041e7abe.png)
 
-css
+4.3.	JAVASCRIPT 
+En esta parte de Javascript procederemos a llamarle al index.html para que se relacione entre ellos y así al momento de que el usuario realice o despliegue los géneros existentes, además en esta parte de código al inicio se procede a poner la llave que creamos al inicio del documento y así puedan los datos ser llamados.
+![image](https://user-images.githubusercontent.com/62858551/114493213-c2043500-9bdf-11eb-98dc-be2e1aee3fb2.png)
 
-.btn.dropdown-toggle  {
-    width:150px;
-    text-align:left;
-}
+En esta parte de código lo que procedemos es hacer que cuando el usuario seleccione tanto el genero como la playlist pueda mostraste los datos que esta solicitando 
+![image](https://user-images.githubusercontent.com/62858551/114493253-d6483200-9bdf-11eb-9145-d0b7601c1b9c.png)
 
-span.caret {
-    position: absolute;
-    left: 90%;
-    top: 45%;
-}
+4.4.	CSS
+En la parte de CSS le hacemos que nuestra aplicación se vea de manera agradable para el usuario y no sea muy aburrido.
+![image](https://user-images.githubusercontent.com/62858551/114493276-e19b5d80-9bdf-11eb-94e5-31128b996ad5.png)
 
-label {
-    padding-top:5px;
-}
+5. RESULTADO(S) OBTENIDO(S): 
+	Procedemos a verificar que nuestro proyecto esta funcionando correctamente. 
 
-.form-label {
-    padding-left:0px !important;
-}
+5.1. El usuario despliega primero el genero y después aparecerán algunos playlist del cual van a estar relacionados con el genero seleccionado
+![image](https://user-images.githubusercontent.com/62858551/114493303-f11aa680-9bdf-11eb-99d7-891171a0c537.png)
 
-img {
-    width:140px;
-    height:140px;
-}
+5.2 Una vez aplastado en el botón de buscar aparecerán las canciones que el usuario esta buscando![image](https://user-images.githubusercontent.com/62858551/114493332-fe379580-9bdf-11eb-8efc-66999ac7158e.png)
 
-.btn-success {
-    background-color: #dfe7d8!important;
-}
-
-.btn-success:hover {
-    background-color: #df4125!important;
-}
-
-img.track {
-    border: 1px solid #c73939;
-}
-
-body {
-    background-color: #ffdd90;
-    background-image: url("https://novastan.org/en/wp-content/uploads/sites/8/2021/02/Spotify.png");
-  }
-  
   
 Procedemos a verificar que nuestro proyecto esta funcionando correctamente. 
 Captura de Pantalla 2021-04-12 a la(s) 20.37.10![image](https://user-images.githubusercontent.com/62858551/114483998-05a27300-9bcf-11eb-853f-47ad33827b67.png)
