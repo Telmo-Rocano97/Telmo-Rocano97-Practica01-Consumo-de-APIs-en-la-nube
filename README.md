@@ -3,7 +3,8 @@ Telmo-Rocano97/Practica01-Consumo-de-APIs-en-la-nube
 
 1.	Identificar gráficamente la arquitectura web de la aplicación a desarrollar. 
 
-[image](https://user-images.githubusercontent.com/62858551/114483744-89a82b00-9bce-11eb-9922-01468285e953.png)
+<img width="824" alt="Captura de Pantalla 2021-04-12 a la(s) 17 41 21" src="https://user-images.githubusercontent.com/62858551/114493894-ffb58d80-9be0-11eb-8aa4-92270b7783ba.png">
+
 
 2.	Generar una llave para consumir los servicios web de la API (opcional, depende de la API seleccionada).
 2.1.	Primero procedemos a registrarse o ingresar con la cuenta creada
@@ -19,7 +20,9 @@ Telmo-Rocano97/Practica01-Consumo-de-APIs-en-la-nube
 
 3.	Crear un repositorio en GitHub con el nombre “Practica01 – Consumo de APIs en la nube” 
 3.1.	Creamos el repositorio con el nombre solicitado 
-[image](https://user-images.githubusercontent.com/62858551/114483969-f4596680-9bce-11eb-8a59-17dd521dccae.png)
+
+<img width="607" alt="Captura de Pantalla 2021-04-12 a la(s) 20 36 56" src="https://user-images.githubusercontent.com/62858551/114494063-47d4b000-9be1-11eb-8ef8-296d04bc43c0.png">
+
 
 4. 	Desarrollar una aplicación con HTML + CSS + Javascript + Web Services para buscar información y visualizar toda la información disponible a través de la API. 
 
@@ -29,34 +32,40 @@ Telmo-Rocano97/Practica01-Consumo-de-APIs-en-la-nube
 
 4.2.	HTML
 La primera creamos el HTML donde vamos a ver como quedaría nuestra aplicación, procedemos a realizar una vista de como se vería la aplicación, en este caso la aplicación tiene un opción desplegable en lo que seria el Genero música y el Playlist a donde pertenece entonces cuando se seleccione al Genero musical aparecerán diferentes playlist.
-[image](https://user-images.githubusercontent.com/62858551/114493616-7605c000-9be0-11eb-969a-2d5a4531957d.png)
+<img width="443" alt="Imagen 1" src="https://user-images.githubusercontent.com/62858551/114494032-3be8ee00-9be1-11eb-95fa-4e799bc82233.png">
 
 
 4.3.	JAVASCRIPT 
 En esta parte de Javascript procederemos a llamarle al index.html para que se relacione entre ellos y así al momento de que el usuario realice o despliegue los géneros existentes, además en esta parte de código al inicio se procede a poner la llave que creamos al inicio del documento y así puedan los datos ser llamados.
-[image](https://user-images.githubusercontent.com/62858551/114493624-7aca7400-9be0-11eb-90d8-4cd42c17b074.png)
+<img width="443" alt="Imagen2" src="https://user-images.githubusercontent.com/62858551/114494010-34294980-9be1-11eb-8518-28319b4c45c1.png">
+
 
 
 En esta parte de código lo que procedemos es hacer que cuando el usuario seleccione tanto el genero como la playlist pueda mostraste los datos que esta solicitando 
-[image](https://user-images.githubusercontent.com/62858551/114493638-7e5dfb00-9be0-11eb-92c7-15d8cc00a385.png)
+<img width="443" alt="Imagen3" src="https://user-images.githubusercontent.com/62858551/114493987-2d023b80-9be1-11eb-8e33-4f273da38f17.png">
+
 
 
 4.4.	CSS
 En la parte de CSS le hacemos que nuestra aplicación se vea de manera agradable para el usuario y no sea muy aburrido.
-[image](https://user-images.githubusercontent.com/62858551/114493651-81f18200-9be0-11eb-8b48-69181f9083cc.png)
+<img width="443" alt="Imagen4" src="https://user-images.githubusercontent.com/62858551/114493968-25db2d80-9be1-11eb-8190-9a6359a72171.png">
+
 
 
 5. RESULTADO(S) OBTENIDO(S): 
-Procedemos a verificar que nuestro proyecto esta funcionando correctamente.//
+
+
+Procedemos a verificar que nuestro proyecto esta funcionando correctamente.
+
 5.1. El usuario despliega primero el genero y después aparecerán algunos playlist del cual van a estar relacionados con el genero seleccionado
 
-[image](https://user-images.githubusercontent.com/62858551/114493669-8ddd4400-9be0-11eb-80e6-ee6ed37f3ad7.png)
+<img width="443" alt="Imagen5" src="https://user-images.githubusercontent.com/62858551/114493923-10fe9a00-9be1-11eb-8143-5623a92d9ba8.png">
+
 
 
 5.2 Una vez aplastado en el botón de buscar aparecerán las canciones que el usuario esta buscando
 
-[image](https://user-images.githubusercontent.com/62858551/114493685-959ce880-9be0-11eb-9bec-5e40388fdcec.png)
-
+<img width="443" alt="Imagen6" src="https://user-images.githubusercontent.com/62858551/114493938-16f47b00-9be1-11eb-9722-d0aebee9f361.png">
 
 CONCLUSIONES:  
 •	Identificar arquitecturas web utilizando servicios en la nube
