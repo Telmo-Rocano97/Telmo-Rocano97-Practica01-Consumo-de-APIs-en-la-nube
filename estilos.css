@@ -1,0 +1,40 @@
+.btn.dropdown-toggle  {
+    width:150px;
+    text-align:left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:5px;
+}
+
+.form-label {
+    padding-left:0px !important;
+}
+
+img {
+    width:140px;
+    height:140px;
+}
+
+.btn-success {
+    background-color: #dfe7d8!important;
+}
+
+.btn-success:hover {
+    background-color: #df4125!important;
+}
+
+img.track {
+    border: 1px solid #c73939;
+}
+
+body {
+    background-color: #ffdd90;
+    background-image: url("https://novastan.org/en/wp-content/uploads/sites/8/2021/02/Spotify.png");
+  }
