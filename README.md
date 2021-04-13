@@ -30,30 +30,33 @@ Captura de Pantalla 2021-04-12 a la(s) 20.36.56![image](https://user-images.gith
 
 4.2.	HTML
 La primera creamos el HTML donde vamos a ver como quedaría nuestra aplicación, procedemos a realizar una vista de como se vería la aplicación, en este caso la aplicación tiene un opción desplegable en lo que seria el Genero música y el Playlist a donde pertenece entonces cuando se seleccione al Genero musical aparecerán diferentes playlist.
-![image](https://user-images.githubusercontent.com/62858551/114493185-aef16500-9bdf-11eb-9e63-668f041e7abe.png)
+Imagen 1.png![image](https://user-images.githubusercontent.com/62858551/114493616-7605c000-9be0-11eb-969a-2d5a4531957d.png)
+
 
 4.3.	JAVASCRIPT 
 En esta parte de Javascript procederemos a llamarle al index.html para que se relacione entre ellos y así al momento de que el usuario realice o despliegue los géneros existentes, además en esta parte de código al inicio se procede a poner la llave que creamos al inicio del documento y así puedan los datos ser llamados.
-![image](https://user-images.githubusercontent.com/62858551/114493213-c2043500-9bdf-11eb-98dc-be2e1aee3fb2.png)
+Imagen2.png![image](https://user-images.githubusercontent.com/62858551/114493624-7aca7400-9be0-11eb-90d8-4cd42c17b074.png)
+
 
 En esta parte de código lo que procedemos es hacer que cuando el usuario seleccione tanto el genero como la playlist pueda mostraste los datos que esta solicitando 
-![image](https://user-images.githubusercontent.com/62858551/114493253-d6483200-9bdf-11eb-9145-d0b7601c1b9c.png)
+Imagen3.png![image](https://user-images.githubusercontent.com/62858551/114493638-7e5dfb00-9be0-11eb-92c7-15d8cc00a385.png)
+
 
 4.4.	CSS
 En la parte de CSS le hacemos que nuestra aplicación se vea de manera agradable para el usuario y no sea muy aburrido.
-![image](https://user-images.githubusercontent.com/62858551/114493276-e19b5d80-9bdf-11eb-94e5-31128b996ad5.png)
+Imagen4.png![image](https://user-images.githubusercontent.com/62858551/114493651-81f18200-9be0-11eb-8b48-69181f9083cc.png)
+
 
 5. RESULTADO(S) OBTENIDO(S): 
-	Procedemos a verificar que nuestro proyecto esta funcionando correctamente. 
-
-5.1. El usuario despliega primero el genero y después aparecerán algunos playlist del cual van a estar relacionados con el genero seleccionado
-![image](https://user-images.githubusercontent.com/62858551/114493303-f11aa680-9bdf-11eb-99d7-891171a0c537.png)
-
-5.2 Una vez aplastado en el botón de buscar aparecerán las canciones que el usuario esta buscando![image](https://user-images.githubusercontent.com/62858551/114493332-fe379580-9bdf-11eb-8efc-66999ac7158e.png)
-
-  
 Procedemos a verificar que nuestro proyecto esta funcionando correctamente. 
-Captura de Pantalla 2021-04-12 a la(s) 20.37.10![image](https://user-images.githubusercontent.com/62858551/114483998-05a27300-9bcf-11eb-853f-47ad33827b67.png)
+5.1. El usuario despliega primero el genero y después aparecerán algunos playlist del cual van a estar relacionados con el genero seleccionado
+
+Imagen5.png![image](https://user-images.githubusercontent.com/62858551/114493669-8ddd4400-9be0-11eb-80e6-ee6ed37f3ad7.png)
+
+
+5.2 Una vez aplastado en el botón de buscar aparecerán las canciones que el usuario esta buscando
+
+Imagen6.png![image](https://user-images.githubusercontent.com/62858551/114493685-959ce880-9be0-11eb-9bec-5e40388fdcec.png)
 
 
 CONCLUSIONES:  
